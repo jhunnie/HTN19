@@ -23,6 +23,20 @@
   color: #61dafb;
 }
 
+.header{
+  padding:3%;
+}
+
+.grid{
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.cards{
+  min-height:30px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
