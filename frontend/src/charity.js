@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-// import './index.html';
+// import './map.html';
 
 
 class Charity extends Component {
     constructor(props){
         super(props);
         this.state = {
-            
+
         }
     }
 

@@ -45,6 +45,14 @@
   width: calc(97% + 3%);
 }
 
+.tableTrans{
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  height: 250px;
+  overflow-y: scroll;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
