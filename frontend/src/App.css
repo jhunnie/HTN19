@@ -38,7 +38,11 @@
 }
 
 .cardImage{
-  margin-top: 25%
+    margin-top: 25%
+}
+
+.MuiGrid-spacing-xs-3 {
+  width: calc(97% + 3%);
 }
 
 @keyframes App-logo-spin {

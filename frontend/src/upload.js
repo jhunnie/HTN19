@@ -26,6 +26,7 @@ class Upload extends Component {
         var temp  = URL.createObjectURL(event.target.files[0]);
         document.querySelector("#output").style.display = 'inline-block';
         document.querySelector("#output").setAttribute('src', temp);
+        document.querySelector("#nextButton").style.display='inline-block';
         this.setState({
             photo: event.target.files[0]
         });
@@ -47,6 +48,9 @@ class Upload extends Component {
                     <label htmlFor="file" style={{ "cursor": "pointer", marginTop: "5%" }}>Choose File</label>
                 </Button>
                 <p><img id="output" width="200" alt='upload' style={{"display":"none"}}/></p>
+                <Button id="nextButton" variant="outlined" color="primary" style={{ "display": "none" }}>
+                    <a href="/charity">Next</a>
+                </Button>
             </div>
         )
     }
