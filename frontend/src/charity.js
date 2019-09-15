@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// import './index.html';
+
 
 class Charity extends Component {
     constructor(props){
@@ -8,9 +10,14 @@ class Charity extends Component {
         }
     }
 
+    componentDidMount(){
+    }
+
     render(){
         return(
-            <div></div>
+            <div id="map">
+
+            </div>
         )
     }
 }

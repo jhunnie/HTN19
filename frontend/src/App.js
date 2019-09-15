@@ -33,7 +33,7 @@ class App extends Component {
           position: 'center',
         }}>
           <Toolbar>
-            <Typography>Match to Donate</Typography>
+            <Typography variant="h2"><a href="/" style={{color:'white', textDecoration:'none'}}>Match to Donate</a></Typography>
           </Toolbar>
         </AppBar>
         {this.state.currPage}

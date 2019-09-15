@@ -37,6 +37,10 @@
   min-height:30px;
 }
 
+.cardImage{
+  margin-top: 25%
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

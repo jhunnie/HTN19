@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import User from './user'
 import Charity from './charity'
 import Home from './home'
+import Upload from './upload';
 
 class Homepage extends Component {
     constructor(props) {
@@ -24,6 +25,7 @@ class Homepage extends Component {
                     <Switch>
                         <Route exact path='/' component={Home} />
                         <Route exact path='/user' component={User} />
+                        <Route exact path='/upload' component={Upload}/>
                         <Route exact path='/charity' component={Charity} />
                     </Switch>
                 </Router>
